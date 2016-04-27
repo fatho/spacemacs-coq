@@ -42,7 +42,7 @@
     :defer t
     :mode ("\\.v\\'" . coq-mode)
     :load-path
-    "/usr/local/Cellar/proof-general/4.2/share/emacs/site-lisp/proof-general/generic")
+    "/usr/share/emacs/site-lisp/ProofGeneral/generic")
   :config (progn
             (spacemacs/set-leader-keys-for-major-mode 'coq-mode
               "]" 'proof-assert-next-command-interactive
